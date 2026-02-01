@@ -36,7 +36,7 @@
 
 	<!--HTML5-specific-->
 	<window if="html5" resizable="true" />
-
+	<haxedef name="WINDOW_COLORS"/>
 	<!--Desktop-specific-->
 	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" vsync="false"/>
 	<window if="mac" allow-high-dpi="true" />
@@ -135,7 +135,7 @@
 	<haxelib name="format" />
 	<haxelib name="flixel-animate" />
 	<haxelib name="nape-haxe4" if="NAPE_ENABLED"/>
-
+	<haxelib name="hxWindowColorMode" if="WINDOW_COLORS"/>
 	<haxelib name="hscript-improved" />
 	<haxelib name="hxdiscord_rpc" if="DISCORD_RPC"/>
 	<haxelib name="markdown" />
